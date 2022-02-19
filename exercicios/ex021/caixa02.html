@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+            margin: 0px;
+        }
+        header {
+            background-color: bisque;
+            padding: 24px;
+            margin: 24px;
+        }
+        nav {
+            background-color: lightcyan;
+            padding: 16px;
+            box-shadow: 4px 4px 30px 4px rgba(0, 0, 0, 0.253);
+        }
+        nav > a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin-right: 24px;
+        }
+        main {
+            background-color: white;
+            padding: 24px;
+            margin: 24px;
+            border-radius: 8px;
+        }
+        article {
+            background-color: bisque;
+            padding: 24px;
+        }
+        article > aside {
+            background-color: aquamarine;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 24px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Título da notícia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, libero voluptatum vel, minus, officia quas expedita commodi voluptate fugiat rerum tenetur et sequi ut ea optio quidem quod illum magnam.</p>
+                <aside>
+                    <p>Artigo escrito por Gabriel Dutra</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Dutra</p>
+    </footer>
+</body>
+</html>
